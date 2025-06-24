@@ -38,8 +38,6 @@ body {
   line-height: 1.5;
   height: 100%;
   -webkit-font-smoothing: antialiased;
-  margin: 0;
-  padding: 2rem;
 }
 
 /* 6. Improve media defaults */
@@ -108,8 +106,7 @@ h6 {
     width: 30rem;
     height: auto;
     min-width: 30rem;
-    min-height: 30rem;
+    min-height: auto;
     max-width: 30rem;
-    max-height: 30rem;
   }
 }
