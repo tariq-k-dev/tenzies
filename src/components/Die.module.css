@@ -1,0 +1,19 @@
+.die {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid rgba(var(--primary-color-rgb), 0.15);
+  border-radius: 0.381rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+
+.frozen {
+  background-color: var(--frozen-dice);
+}

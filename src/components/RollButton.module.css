@@ -1,0 +1,19 @@
+.rollButton {
+  background-color: var(--btn-background);
+  border: none;
+  border-radius: 0.381rem;
+  box-shadow: 0 0.35rem 0.7rem rgba(0, 0, 0, 0.2);
+  color: var(--btn-text-color);
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 9.2rem;
+  height: 3.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.rollButton:hover {
+  background-color: var(--btn-background-hover);
+  color: var(--btn-text-color-hover);
+}
