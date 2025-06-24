@@ -85,5 +85,5 @@ This project is configured for continuous deployment using GitHub Actions. Any p
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/url?sa=E&q=LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
