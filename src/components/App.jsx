@@ -4,13 +4,16 @@ import RollButton from './RollButton';
 import './App.css';
 
 function App() {
-  const [dice, setDice] = React.useState(
-    Array.from({ length: 10 }, () => ({
+  const allNewDice = generateAllNewDice();
+  const [dice, setDice] = React.useState(allNewDice);
+
+  function generateAllNewDice() {
+    return Array.from({ length: 10 }, () => ({
       index: crypto.randomUUID(),
       value: Math.floor(Math.random() * 6) + 1,
       isFrozen: false,
-    }))
-  );
+    }));
+  }
 
   function rollDice() {
     setDice((prevDice) => {
