@@ -22,6 +22,15 @@
   height: 100%;
 }
 
+@media (max-width: 600px) {
+  .main {
+    width: 30rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+}
+
 .h1 {
   font-weight: 500;
   letter-spacing: 0.1rem;
@@ -35,11 +44,18 @@ p {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 600px) {
+  p {
+    text-align: justify;
+    width: 90%;
+  }
+}
+
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   justify-items: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 2rem;
 }

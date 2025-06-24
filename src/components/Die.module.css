@@ -16,6 +16,13 @@
   height: 5rem;
 }
 
+@media (max-width: 600px) {
+  .die {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
 .frozen {
   background-color: var(--frozen-dice);
 }
