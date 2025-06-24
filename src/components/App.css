@@ -37,8 +37,8 @@
 p {
   color: var(--secondary-color);
   font-size: 1.8rem;
-  text-align: center;
-  width: 70%;
+  text-align: justify;
+  width: 80%;
   line-height: 1.5;
 }
 
