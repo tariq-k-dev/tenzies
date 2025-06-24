@@ -101,3 +101,15 @@ h6 {
   max-width: 40rem;
   max-height: 40rem;
 }
+
+@media (max-width: 600px) {
+  #root {
+    aspect-ratio: auto;
+    width: 30rem;
+    height: auto;
+    min-width: 30rem;
+    min-height: 30rem;
+    max-width: 30rem;
+    max-height: 30rem;
+  }
+}
