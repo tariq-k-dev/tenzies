@@ -3,15 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
   border: 0.1rem solid rgba(var(--primary-color-rgb), 0.15);
-  border-radius: 0.381rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
   color: var(--primary-color);
   cursor: pointer;
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  width: 4rem;
-  height: 4rem;
-  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+  width: 5rem;
+  height: 5rem;
 }
 
 .frozen {
