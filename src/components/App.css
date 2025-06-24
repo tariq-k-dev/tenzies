@@ -43,11 +43,3 @@ p {
   gap: 2rem;
   padding: 2rem;
 }
-
-@media (max-width: 600px) {
-  .dice-container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    gap: 1rem;
-  }
-}
