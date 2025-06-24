@@ -4,6 +4,9 @@ A simple but fun dice game built with React and Vite. The goal is to roll the di
 
 ![gh-pages deployment badge](https://github.com/tariq-k-dev/tenzies/actions/workflows/gh-pages.yml/badge.svg)
 
+> [!WARNING]
+> This project is currently under active development. Features are subject to change, and some functionality may be incomplete.
+
 ### [➡️ View Live Demo ⬅️](https://www.google.com/url?sa=E&q=https%3A%2F%2Ftariq-k-dev.github.io%2Ftenzies%2F)
 
 <img src="./src/assets/images/tenzies-site.png" alt="Tenzies website screenshot" style="float: left; clear: both;"  />
