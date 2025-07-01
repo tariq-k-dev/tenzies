@@ -9,7 +9,7 @@ function App() {
 
   function generateAllNewDice() {
     return Array.from({ length: 10 }, () => ({
-      index: crypto.randomUUID(),
+      id: crypto.randomUUID(),
       value: Math.floor(Math.random() * 6) + 1,
       isFrozen: false,
     }));
@@ -42,7 +42,7 @@ function App() {
       </p>
       <div className='dice-container'>
         {dice.map((dieObj) => (
-          <Dice key={dieObj.index} die={dieObj} handleClick={toggleFreeze} />
+          <Dice key={dieObj.id} die={dieObj} handleClick={toggleFreeze} />
         ))}
       </div>
       <RollButton rollDice={rollDice} />

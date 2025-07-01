@@ -57,3 +57,8 @@ p {
   gap: 1.5rem;
   padding: 2rem;
 }
+
+button {
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+}
